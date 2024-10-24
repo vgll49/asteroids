@@ -46,7 +46,7 @@ def main():
             for shot in shots:
                 if shot.collides_with(obj):
                     shot.kill()
-                    obj.kill()
+                    obj.split()
 
                 
                 
